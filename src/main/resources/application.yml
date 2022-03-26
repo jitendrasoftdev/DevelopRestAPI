@@ -1,0 +1,17 @@
+## YAML Template.
+---
+server:
+    port: 9091
+    
+spring:
+    application:
+        name: Rest API
+    datasource:
+        url: jdbc:mysql://127.0.0.1:3306/testdb
+        username: jsd
+        password: jsd
+        
+    jpa:
+        hibernate:
+            ddl-auto: update
+        show-sql: true
